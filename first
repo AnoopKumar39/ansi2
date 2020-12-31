@@ -1,0 +1,11 @@
+- name: first playbook
+  tasks:
+    - name: Ping
+      ping:
+
+- name: second playbook
+  task:
+    - name: create a file
+      file:
+        path: /home/anoop/justatext
+        state: touch
