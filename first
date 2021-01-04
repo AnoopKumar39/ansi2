@@ -9,5 +9,5 @@
   tasks:
     - name: create a file
       file:
-        path: /home/anoop/justatext2
+        path: /home/anoop/sample
         state: touch
